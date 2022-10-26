@@ -77,5 +77,8 @@
       "style": "scss"
     }
   },
-  "defaultProject": "algoreps"
+  "defaultProject": "algoreps",
+  "plugins": [
+    "@nx-dotnet/core"
+  ]
 }

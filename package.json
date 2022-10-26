@@ -7,7 +7,8 @@
     "postinstall": "node ./decorate-angular-cli.js",
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "prepare": "nx g @nx-dotnet/core:restore"
   },
   "private": true,
   "dependencies": {
@@ -36,9 +37,11 @@
     "@nrwl/cypress": "15.0.1",
     "@nrwl/eslint-plugin-nx": "15.0.1",
     "@nrwl/jest": "15.0.1",
+    "@nrwl/js": "15.0.1",
     "@nrwl/linter": "15.0.1",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/workspace": "15.0.1",
+    "@nx-dotnet/core": "^1.15.0",
     "@types/jest": "28.1.1",
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.36.1",

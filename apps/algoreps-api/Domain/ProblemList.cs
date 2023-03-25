@@ -4,5 +4,6 @@ public class ProblemList
 {
     public int Id { get; set; }
     public string Title { get; set; } = "";
-    public List<ProblemListProblem> Problems { get; set; } = new ();
+
+    public List<Problem> Problems { get; set; } = new ();
 }

@@ -1,13 +1,14 @@
 {
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "name": "algoreps-api-test",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/algoreps-api-test",
   "targets": {
     "build": {
       "executor": "@nx-dotnet/core:build",
       "outputs": [
-        "dist/apps/algoreps-api-test"
+        "dist/apps/algoreps-api-test",
+        "{workspaceRoot}/dist/intermediates/apps/algoreps-api-test"
       ],
       "options": {
         "configuration": "Debug",

@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'algoreps-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  standalone: true,
+  templateUrl: ' <algoreps-layout></algoreps-layout>',
 })
-export class AppComponent {
-  title = 'algoreps';
-}
+export class AppComponent {}

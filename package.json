@@ -8,7 +8,7 @@
     "start": "nx serve",
     "build": "nx build",
     "build-azure": "nx build algoreps --prod",
-    "test": "nx test",
+    "test": "nx test"
   },
   "private": true,
   "dependencies": {

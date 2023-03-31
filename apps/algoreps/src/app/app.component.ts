@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import { AlgorepsLayoutComponent } from '@algoreps/algoreps/layout';
 
 @Component({
   selector: 'algoreps-root',
+  imports: [ AlgorepsLayoutComponent ],
   standalone: true,
-  templateUrl: ' <algoreps-layout></algoreps-layout>',
+  template: '<algoreps-layout></algoreps-layout>',
 })
 export class AppComponent {}

@@ -9,7 +9,6 @@
     "build": "nx build",
     "build-azure": "nx build algoreps --prod",
     "test": "nx test",
-    "prepare": "nx g @nx-dotnet/core:restore"
   },
   "private": true,
   "dependencies": {

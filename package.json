@@ -8,8 +8,7 @@
     "start": "nx serve",
     "build": "nx build",
     "build-azure": "nx build --prod",
-    "test": "nx test",
-    "prepare": "nx g @nx-dotnet/core:restore"
+    "test": "nx test"
   },
   "private": true,
   "dependencies": {

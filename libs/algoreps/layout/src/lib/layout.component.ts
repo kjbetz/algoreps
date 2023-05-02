@@ -18,7 +18,6 @@ import { MenubarModule } from 'primeng/menubar';
       </header>
 
       <main>
-        <h1>Hello, Cisco!</h1>
         <router-outlet></router-outlet>
       </main>
 

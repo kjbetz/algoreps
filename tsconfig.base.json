@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@algoreps/algoreps/dashboard": ["libs/algoreps/dashboard/src/index.ts"],
       "@algoreps/algoreps/layout": ["libs/algoreps/layout/src/index.ts"]
     }
   },
